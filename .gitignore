@@ -1,0 +1,24 @@
+# Ignore NetBeans private and generated files
+OLIT_2/nbproject/private/
+OLIT_2/nbproject/build-impl.xml
+OLIT_2/nbproject/jax-ws-build.xml
+OLIT_2/nbproject/genfiles.properties
+
+# Ignore build and distribution folders
+OLIT_2/dist/
+OLIT_2/build/
+
+# Ignore temporary/backup files
+OLIT_2/*.bak
+OLIT_2/*.log
+OLIT_2/~$*
+
+# Ignore IDE-specific files
+OLIT_2/.idea/
+OLIT_2/*.iml
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore user-specific config (but keep essential ones)
+OLIT_2/*.xml.user

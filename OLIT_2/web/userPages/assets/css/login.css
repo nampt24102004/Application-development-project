@@ -1,0 +1,146 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 2, 2025, 2:32:27 PM
+    Author     : Long0
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 24px;
+    color: #222;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.login-container p {
+    margin: 0 0 16px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.login-container a {
+    color: #4f8ef7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Input và Select */
+.input-field, select {
+    width: 100%;
+    padding: 12px 16px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus, select:focus {
+    outline: none;
+    border-color: #4f8ef7;
+    box-shadow: 0 0 5px rgba(79, 142, 247, 0.4);
+}
+
+/* Form group và Label */
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+label {
+    font-weight: 500;
+    color: #444;
+    flex: 0 0 80px;
+    margin: 0;
+}
+
+select {
+    flex: 1;
+    width: auto;
+}
+
+/* Button */
+.button {
+    width: 100%;
+    padding: 13px;
+    background-color: #4f8ef7;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #3b74d7;
+}
+
+/* Links */
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+}
+
+.links a {
+    color: #4f8ef7;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.err, .error-msg {
+    color: red !important;
+    font-size: 14px !important;
+    margin-top: 14px !important;
+    text-align: center !important;
+}
+
+/* Password hint */
+.password-hint {
+    font-size: 13px;
+    color: #555;
+    text-align: left;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
